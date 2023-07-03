@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  height: 7%;
+  padding: 0 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.ul {
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.li::before {
+  content: "\25C6"; /* this is the Unicode character for diamond */
+  margin-right: 0.5rem;
+}
+
+.li {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logo-navbar {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-navbar-box {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  animation: rotation 10s infinite linear;
+  margin-right: 20px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}

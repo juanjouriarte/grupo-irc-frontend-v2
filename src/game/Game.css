@@ -1,0 +1,175 @@
+
+
+
+.game-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.game-button:hover {
+    background-color: #0fd20f;
+    color: white;
+    border-color: black;
+}
+
+.game-button:hover:focus {
+    outline: 2px solid black;
+    background-color: #830000;
+}
+
+.slider-parent{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.buble{
+    margin-left: 10px;
+}
+
+.play-button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+    padding: 0;
+  }
+
+.play-button:hover {
+    color: white;
+    border-color: none;
+  }
+
+.play-button:focus {
+    outline: 0px;
+  }
+  
+  audio {
+    display: none;
+  }
+
+.music-player {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.start-button {
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #b20e08;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 35px;
+}
+
+.start-button:hover {
+    background-color: #470000;
+    color: white;
+    border-color: black;
+}
+
+.start-button:focus {
+    outline: 2px solid black;
+}
+
+.game-box-turn {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #850404;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    font-size: 20px;
+    animation: colorChange 5s infinite linear;
+}
+
+@keyframes colorChange {
+    0% {
+      border-color: rgb(0, 0, 0);
+    }
+    50% {
+      border-color: rgb(181, 0, 0);
+    }
+    100% {
+      border-color: rgb(0, 0, 0);
+    }
+  }
+
+  
+.shop-box {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.shop-button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.shop-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #13020277;
+}
+
+.winner-data {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 10%;
+    background-color: #00000077;
+}
+
+.start-box {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

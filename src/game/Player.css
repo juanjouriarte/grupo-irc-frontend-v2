@@ -1,0 +1,65 @@
+.player-card-row {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.player-avatar {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.player-name {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.798);
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.player-avatar-img {
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #0fd20f;
+}
+
+.player-stats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.player-money, .player-bet {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.chip-img, .bet-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

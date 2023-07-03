@@ -1,0 +1,45 @@
+.table-historica {
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.table td, .table th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.spade::before {
+  content: "\2660 ";
+  color: black;
+}
+
+.info-table{
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.column-names {
+  background-color: #000000;
+  color: white;
+}
+
+.data-tables tr:nth-child(even){
+  background-color: #aa0404;
+}
+
+.data-tables tr:hover {
+  background-color: rgb(255, 253, 253);
+  color: black;
+}
+  

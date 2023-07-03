@@ -1,0 +1,100 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  height: 30%;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #000000aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.login-link,
+.register-link,
+.play-link {
+  font-size: 2rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.profile-ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.login-link:hover, .register-link:hover, .play-link:hover {
+  color: #070707;
+  font-weight: bold;
+}
+
+.box-img {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.landing-img {
+  height: 100%;
+  width: 100%;
+  animation: rotation 10s infinite linear;
+}
+
+h1, h2, li {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-button {
+  font-size: 24px;
+  color: #000;
+  padding: 0;
+}
+
+.logout-button:hover {
+  color: white;
+  border-color: white;
+  background-color: #000;
+}
+
+.logout-button:focus {
+  outline: 0px;
+}
+
+
+

@@ -39,14 +39,14 @@ export function PokerTable() {
 
   return (
     <div className="poker-table">
-      <img src='../src/assets/poker-assets/tablero.svg' className="table-img" alt="table"/>
+      <img src='/assets/poker-assets/tablero.svg' className="table-img" alt="table"/>
       <div className="poker-table casino-card-row">
         {cardsShow.map((card, index)=> (
-            <Card key={index} imgSrc={`../src/assets/SVG-cards-1.3/${card}`} id={index}/>
+            <Card key={index} imgSrc={`/assets/SVG-cards-1.3/${card}`} id={index}/>
         ))}
       </div>
       <div className='poker-table money-bag'>
-        <img src='../src/assets/poker-assets/money-bag.svg' className="money-bag-img" alt="money-bag"/>
+        <img src='/assets/poker-assets/money-bag.svg' className="money-bag-img" alt="money-bag"/>
         <p className="money-bag-text">${tableBet}</p>
       </div>
       {players.map((player, index) => (

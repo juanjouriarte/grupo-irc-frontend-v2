@@ -12,7 +12,7 @@ export default function Player({id, username, avatarImgSrc, money, cards ,bet}) 
         <>
         <div className="player-card-row">
           {cards.map((card, index)=> (
-                    <Card key={index} imgSrc={`../src/assets/SVG-cards-1.3/${card}`} id={index}/>
+                    <Card key={index} imgSrc={`/assets/SVG-cards-1.3/${card}`} id={index}/>
                 ))}
         </div>
         <div className="player-avatar">
@@ -23,11 +23,11 @@ export default function Player({id, username, avatarImgSrc, money, cards ,bet}) 
         </div>
         <div className="player-stats">
           <div className='player-stats player-money'>
-            <img src='../src/assets/poker-assets/chip.svg' className="chip-img" alt='chip'/>
+            <img src='/assets/poker-assets/chip.svg' className="chip-img" alt='chip'/>
             <p>${money}</p>
           </div>
           <div className='player-stats player-bet'>
-            <img src='../src/assets/poker-assets/bet.svg' className="bet-img" alt='bet chips'/>
+            <img src='/assets/poker-assets/bet.svg' className="bet-img" alt='bet chips'/>
             <p>Bet: ${bet}</p>
           </div>
         </div>

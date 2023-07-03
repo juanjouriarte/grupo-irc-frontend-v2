@@ -19,7 +19,7 @@ export default function Player({id, username, avatarImgSrc, money, cards ,bet}) 
           <div className='player-avatar player-name'>
             <p>{username}</p>
           </div>
-          <img src={avatarImgSrc} className="player-avatar-img" alt='player avatar image'/>
+          <img src={`/assets/avatars/${avatarImgSrc}`} className="player-avatar-img" alt='player avatar image'/>
         </div>
         <div className="player-stats">
           <div className='player-stats player-money'>

@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo-navbar">
         <div className='logo-img-box'>
-          <img src='../public/assets/poker-assets/chip.svg' className="logo-img" alt='poker logo'/>
+          <img src='../src/assets/poker-assets/chip.svg' className="logo-img" alt='poker logo'/>
         </div>
         <div className='logo-text-box'>
           <p className='logo-text'>Texas Hold'em</p>

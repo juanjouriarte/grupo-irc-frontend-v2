@@ -3,7 +3,7 @@ import React, {createContext, useState, useEffect} from 'react';
 import { GameContext } from './Table';
 
 export default function Card({id, imgSrc}) {
-    const defaultCard = '../public/assets/SVG-cards-1.3/backcard.svg'
+    const defaultCard = '../src/assets/SVG-cards-1.3/backcard.svg'
     const [showImage, setShowImage] = useState(true);
   
     useEffect(() => {

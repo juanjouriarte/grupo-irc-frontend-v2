@@ -35,7 +35,7 @@ function App() {
       <h2>Jugar para Ganar</h2>
       <div className='box-img'>
         {/* <img src='../src/assets/HOLDEM IRC.png' className="logo"/> */}
-        <img src='../public/assets/poker-assets/chip.svg' className="landing-img" />
+        <img src='../src/assets/poker-assets/chip.svg' className="landing-img" />
       </div>
       <div className="profile-navbar">
         <ul className='profile-ul'>

@@ -2,7 +2,7 @@ import React from 'react';
 import './HistoricalTable.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { API_URL } from '../config';
+import API_URL  from '../config';
 
 const HistoricalTable = () => {
   const [games, setGames] = useState([]);

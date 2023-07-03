@@ -2,7 +2,7 @@ import {PokerTable} from "./PokerTable"
 import './Game.css'
 import Navbar from "../common/Navbar"
 import { useState, useEffect } from "react"
-import theGambler from  '../assets/music/Dreams -The Cooltrane Quartet.mp3'
+import theGambler from  '/assets/music/Dreams -The Cooltrane Quartet.mp3'
 import { FaPlay, FaPause } from 'react-icons/fa';
 import { AiOutlineShoppingCart} from 'react-icons/ai';
 import { useRef } from 'react';

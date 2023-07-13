@@ -44,6 +44,7 @@ export default function UserWelcome() {
       const { access_token, user_id } = response.data;
 
       // Store the JWT and user ID in local storage
+      console.log("El usuario es: ",user_id);
       localStorage.setItem("jwt", access_token);
       localStorage.setItem("user_id", user_id);
       localStorage.setItem("username", username);

@@ -9,7 +9,7 @@ function App() {
 
   // Check if JWT token exists in local storage
   const jwtToken = localStorage.getItem('jwt');
-  const isLoggedIn = !!jwtToken;
+  const isLoggedIn = jwtToken !== null && jwtToken !== undefined;
 
   async function handleLogout() {
     try{

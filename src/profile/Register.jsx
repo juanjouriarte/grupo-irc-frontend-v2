@@ -13,6 +13,8 @@ export default function UserWelcome() {
   const [username, setUsername] = useState(null);
   const [error, setError] = useState(null);
 
+  const navigate = useNavigate();
+
 
   function handleChangeName(nombre) {
     setNombre(nombre);
